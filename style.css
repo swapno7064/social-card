@@ -120,7 +120,7 @@
 @media screen and (max-width: 800px) {
     .row-col-1{
         grid-template-columns: repeat(1,500px);
-        justify-items: flex-start;
+        justify-items: center;
         margin: 20px;
     }
     .heading-1{
@@ -128,11 +128,15 @@
         padding-right: 40px;
     }
     .rating{
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .row-col-2{
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
+    }
+    .row-col-2 .card{
+        height: auto;
+        width:70%;
     }
     .rating-2,.rating-3{
         margin-left: 26px;
